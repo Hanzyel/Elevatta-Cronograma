@@ -1,8 +1,9 @@
 {
   "name": "Painel de Cronogramas de Obras",
   "short_name": "Obras",
-  "start_url": "./",
-  "scope": "./",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f1f5fc",
   "theme_color": "#102b50",

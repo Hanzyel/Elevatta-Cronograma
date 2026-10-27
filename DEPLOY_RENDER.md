@@ -33,3 +33,7 @@ Com `autoDeployTrigger: commit`, toda alteração enviada para a branch conectad
 ## Dados do painel
 
 Os lançamentos do painel continuam armazenados no navegador (`localStorage`). Eles não ficam gravados no servidor do Render. Use **Compartilhar dados / Exportar arquivo** para transferir os dados entre celular e computador.
+
+
+## Correção para acesso no celular
+No Render, em **Redirects/Rewrites**, adicione: Source `/*`, Destination `/index.html`, Action `Rewrite`. Isso evita `Not Found` ao abrir atalhos/PWA ou links com caminhos antigos. Depois faça um novo deploy e, no celular, remova o atalho/PWA antigo e abra novamente a URL raiz.
