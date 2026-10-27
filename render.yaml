@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: painel-cronogramas-obras
+    runtime: static
+    buildCommand: echo "Painel estático - nenhum build necessário"
+    staticPublishPath: .
+    autoDeployTrigger: commit

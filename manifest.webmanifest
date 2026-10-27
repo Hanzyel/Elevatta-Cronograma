@@ -1,0 +1,11 @@
+{
+  "name": "Painel de Cronogramas de Obras",
+  "short_name": "Obras",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f5fc",
+  "theme_color": "#102b50",
+  "description": "Planejamento semanal, equipes, avanços, pendências e relatórios de obra.",
+  "icons": []
+}
